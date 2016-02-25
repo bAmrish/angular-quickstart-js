@@ -1,0 +1,24 @@
+{
+  "name": "angular-quickstart-js",
+  "version": "0.0.1",
+  "description": "Angularjs quickstart guide in javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "author": "Amrish Bharatiya",
+  "license": "MIT",
+  "dependencies": {
+    "angular2": "2.0.0-beta.7",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "0.5.15"
+  },
+  "devDependencies": {
+      "concurrently": "^2.0.0",
+      "lite-server": "^2.1.0"
+  }
+}
