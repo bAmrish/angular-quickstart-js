@@ -1,5 +1,5 @@
-(function(app) {
-  document.addEventListener('DOMContentLoaded', function() {
-    ng.platform.browser.bootstrap(app.AppComponent);
-  });
-})(window.app || (window.app = {}));
+import $ from 'jquery';
+import appComponent from './app.component'
+import browser from 'angular2/platform/browser'
+
+browser.bootstrap(appComponent);
